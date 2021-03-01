@@ -1,0 +1,89 @@
+body{
+
+    font-family: 'RocknRoll One', sans-serif;
+    margin: 0;
+}
+
+.Container{
+
+    max-width: 428px;
+    margin: auto ;
+    background-color: ghostwhite;
+    height: 100%;
+    
+}
+
+.Head{
+
+    display: flex;
+    justify-content:space-between;
+    position: -webkit-sticky;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);
+    padding:1em;
+    align-items: center;
+    font-size: x-large;
+
+}
+
+i{
+    font-size: 1.2em;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.contact{
+    font-size: 1.2em;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+hr{
+    border: 1.5px solid #a3a3a3;
+}
+
+.item{
+    list-style-type: none;
+}
+
+.division{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+}
+
+.division:hover{
+    background-color: #4d4c4c;
+    cursor: pointer;
+}
+
+.message{
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+}
+
+.sticky{
+    position: sticky;
+    background-color:#96a4e4;
+    font-size: 1em;
+    top: 4px;
+    padding: 1rem;
+}
+
+.name::before{
+    font-family: "FontAwesome";
+    content: "\f2bd";
+    justify-content: space-between;
+    padding-left: 0em;
+    padding-right: 1em;
+    font-size: 2rem;
+}
+
